@@ -2,7 +2,7 @@
   "name": "electron-pivot",
   "version": "1.0.0",
   "description": "Electron application that reminds to update tasks",
-  "main": "electron.js",
+  "main": "src/electron.js",
   "scripts": {
     "start": "electron .",
     "electron:dev": "npx electronmon .",
