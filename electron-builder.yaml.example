@@ -1,0 +1,21 @@
+appId: com.app.ElectronTiTo
+
+publish:
+    provider: github
+    token: YOUR_GITHUB_TOKEN
+
+releaseInfo:
+  releaseNotesFile: "./release-notes.md"
+  
+extraFiles: [
+  "db/pivot",
+  "python/**/*",
+  "assets/**/*"
+]
+
+files:
+  [
+    "src/**/*"
+  ]
+
+icon: ./assets/icon/icon.png
